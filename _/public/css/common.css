@@ -1,0 +1,222 @@
+.header-title-module-p{
+    margin-bottom: 6px;
+}
+.header-title-module-p-btn-23{
+      margin-right: -23px;
+}
+.container-p{
+     padding: 26px;
+}
+
+.smart-table {
+  max-width: 600px;
+  margin: 20px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 15%;
+    padding: 2px;
+    margin: 7px;
+    border: 1px solid #ccc;
+}
+.margin-top-p-4{
+    margin-top: 4px;
+}
+.p-4-l{
+    padding-left: 4px;
+}
+.p-4-r{
+    padding-right: 4px;
+}
+.p-4-t{
+    padding-top: 20px;
+}
+#btnSearch{
+    cursor:pointer;
+}
+@media(max-width:768px){
+.mob-back-h{
+    height: 40px;
+}
+}
+
+.btn-rb-success{
+        padding: 2px;
+    border: 1px solid #ccc;
+    background: #2ab27b;
+    color: white;
+    padding-left: 15px;
+    padding-right: 14px;
+    /* margin-bottom: 2px !important; */
+    /* margin: 2px; */
+    border-radius: 4px;
+}
+.btn-rb-danger{
+
+        padding: 2px;
+    border: 1px solid #ccc;
+    background: #bf5329;
+    color: white;
+    padding-left: 15px;
+    padding-right: 14px;
+    /* margin-bottom: 2px !important; */
+    /* margin: 2px; */
+    border-radius: 4px;
+}
+.btn-rb-default{
+
+        padding: 2px;
+    border: 1px solid #ccc;
+    background: #cbb956;
+    color: white;
+    padding-left: 15px;
+    padding-right: 14px;
+    /* margin-bottom: 2px !important; */
+    /* margin: 2px; */
+    border-radius: 4px;
+}
+
+.margin-rb-b{
+    margin-bottom: 3px;
+}
+.form-control-rb{
+    height: 28px;
+}
+.table-text-trail{
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-width: 148px;
+    height: 63px;
+}
+
+.text-m-6{
+        margin-top: 6px;
+}
+
+.btn-rb-green {
+    padding: 2px;
+    border: 1px solid #ccc;
+    background: #5756cb;
+    color: white;
+    padding-left: 15px;
+    padding-right: 14px;
+    /* margin-bottom: 2px !important; */
+    /* margin: 2px; */
+    border-radius: 4px;
+}
+.nav-rb>li>a {
+    padding: 5px 15px !important;
+}
+.nav-rb{
+    border-radius:0px !important; 
+}
+
+.table-text-only-trail {
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-width: 148px;
+    height: 21px;
+}
+
+.title-font{
+    font-size: 13px !important;
+    color: #000000;
+    font-weight: 600 !important;
+}
+.subtitle-font{
+    font-size: 10px !important;
+    color: gray !important;
+}
+
+/*Prview Image*/
+.rb-preview{
+    width: 10%;
+    float: left;
+}
+.rb-preview>span>img{
+    border-radius: 9px;
+}
+.rb-content-image{
+    width: 60%;
+    float: left;
+}
+.rb-size-image{
+    color: red;
+    font-size: 12px;
+}
+.rb-content-action-image{
+    width: 30%;
+    float: right;
+}
+.rb-content-preview{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 93px;
+    padding: 4px;
+}
+
+
+
+/**COMMON**/
+label.myLabel input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+
+/***** Example custom styling *****/
+.myLabel {
+    /* border: 2px solid #AAA; */
+    border-radius: 4px;
+    padding: 6px 18px;
+    margin: 2px;
+    background: #DDD;
+    display: inline-block;}
+.myLabel:hover {
+    background: #CCC;
+}
+.myLabel:active {
+    background: #CCF;
+}
+.myLabel :invalid + span {
+    color: #A44;
+}
+.myLabel :valid + span {
+    color: #4A4;
+}
+.btn-rb-banning {
+    padding: 2px;
+    border: 1px solid #ccc;
+    background: #ff0000;
+    color: white;
+    padding-left: 15px;
+    padding-right: 14px;
+    border-radius: 4px;
+}
