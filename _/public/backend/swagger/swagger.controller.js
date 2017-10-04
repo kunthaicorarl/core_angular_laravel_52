@@ -1,4 +1,4 @@
- appModule.controller('Home.IndexController', Controller);
+ appModule.controller('Swagger.IndexController', Controller);
 
     function Controller() {
         var vm = this;

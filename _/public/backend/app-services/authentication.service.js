@@ -1,16 +1,8 @@
-(function () {
-    'use strict';
-
-    angular
-        .module('app')
-        .factory('AuthenticationService', Service);
-
+appModule.factory('AuthenticationService', Service);
     function Service($http, $localStorage,$location) {
         var service = {};
-    
         service.Login = Login;
         service.Logout = Logout;
-
         return service;
 
         function Login(username, password, callback) {
@@ -40,4 +32,3 @@
             $http.defaults.headers.common.Authorization = '';
         }
     }
-})();
