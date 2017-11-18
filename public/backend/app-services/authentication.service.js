@@ -14,7 +14,7 @@
         return service;
 
         function Login(username, password, callback) {
-            var baseUrl='http://localhost:81/_tourism/api/authenticate';
+            var baseUrl='http://localhost:8000/api/authenticate';
             $http.post(baseUrl, { email: username, password: password })
                 .success(function (response) {
                     // login successful if there's a token in the response

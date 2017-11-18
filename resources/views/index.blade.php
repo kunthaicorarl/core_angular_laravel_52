@@ -7,7 +7,7 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- application css -->
-    <link href="public/backend/app-content/app.css" rel="stylesheet" />
+    <link href="../backend/app-content/app.css" rel="stylesheet" />
 </head>
 <body>
     <!-- main app container -->
@@ -36,13 +36,13 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
 
     <!-- application scripts -->
-    <script src="public/backend/app.js"></script>
-    <script src="public/backend/app-services/authentication.service.js"></script>
-    <script src="public/backend/home/index.controller.js"></script>
-    <script src="public/backend/login/index.controller.js"></script>
+    <script src="../backend/app.js"></script>
+    <script src="../backend/app-services/authentication.service.js"></script>
+    <script src="../backend/home/index.controller.js"></script>
+    <script src="../backend/login/index.controller.js"></script>
 
     <!-- scripts for fake backend -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-mocks.js"></script>
-    <script src="public/backend/app-helpers/fake-backend.js"></script>
+    <script src="../backend/app-helpers/fake-backend.js"></script>
 </body>
 </html>

@@ -14,13 +14,13 @@
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: 'public/backend/home/index.view.html',
+                templateUrl: '../backend/home/index.view.html',
                 controller: 'Home.IndexController',
                 controllerAs: 'vm'
             })
             .state('login', {
                 url: '/login',
-                templateUrl: 'public/backend/login/index.view.html',
+                templateUrl: '../backend/login/index.view.html',
                 controller: 'Login.IndexController',
                 controllerAs: 'vm'
             });
